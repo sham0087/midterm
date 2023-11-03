@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY STUFF</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ed5151;
+            font-family: Arial, sans-serif;
+        }
+
+        .cover {
+            position: relative;
+            background-image: url('your-background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .header-image {
+            max-width: 50%;
+        }
+
+        .header-text {
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h1 {
+            font-size: 46px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .links {
+            margin-top: 210px;
+            display: flex;
+            align-items: center;
+        }
+
+        .links a {
+            color: #fff;
+            text-decoration: none;
+            margin-top: -05%;
+            margin-right: 130px;
+            margin-left: 130px;
+            font-size: 16px;
+        }
+
+        .links-image {
+            max-width: 20%;
+            padding-right: 60%;
+        }
+
+        .links-description {
+            font-size: 18px;
+            align-self: flex-start;
+            padding-left: 10%;
+        }
+
+        .text-input-container {
+            background-color: #5b2727;
+            padding: 50px;
+            text-align: center;
+            margin-top: 120px;
+        }
+
+        .text-input-box {
+            border: 5px solid #0b0101;
+            padding: 10px;
+            width: 750px;
+            margin: 50px auto;
+        }
+
+        .word-on-top {
+            font-size: 24px;
+            color: #0f0101;
+            margin-bottom: 30px;
+            margin-left: -40%;
+        }
+
+        .choice-question {
+            margin-top: -90px;
+            text-align: center;
+        }
+
+        .radio-label {
+            font-size: 18px;
+            color: #fff;
+            margin-right: 20px;
+            margin: 20px auto;
+        }
+
+        .footer {
+            text-align: right;
+            padding: 10px;
+            position: absolute;
+            bottom: -540px;
+            right: 30px;
+            color: #fff;
+            font-size: 14px;
+    
+        }
+        .facts{
+            text-align: center;
+            color: #fff;
+            margin-left: -690px;
+        }
+        .fact-points{
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="cover">
+        <img class="header-image" src="lu exp 01.jpg" alt="Website Header Image">
+        <div class="header-text">
+            <h1>Welcome to My Website</h1>
+            <p>Discover amazing content here!</p>
+            <div class="links">
+                <a href="#">HOME</a>
+                <a href="#">MY PICS</a>
+                <a href="#">SETTINGS</a>
+            </div>
+            <div class="links-content">
+                <img class="links-image" src="lu exp 01.jpg" alt="Links Image">
+                <div class="links-description">
+                    <p2>This is an image I took from the photography class, and I just think it has a lot of detail. It was my first and best-ever shot. So I felt like using it on my website as well. Hopefully, you think it's sick too (fire emoji).</p2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-input-container">
+        <div class="text-input-box">
+            <input class="text-input" type="text" placeholder="Type here...">
+            <div class="word-on-top">first name</div>
+            <input class="text-input" type="text" placeholder="Type here...">
+            <div class="word-on-top">second name</div>
+            <input class="text-input" type="text" placeholder="Type here...">
+            <div class="word-on-top">last name</div>
+        </div>
+    </div>
+    <div class="choice-question">
+        <p class="radio-label">Do you wish to continue?</p>
+        <input type="radio" id="yes" name="choice" value="yes">
+        <label for="yes" class="radio-label">Yes</label>
+        <input type="radio" id="no" name="choice" value="no">
+        <label for="no" class="radio-label">No</label>
+    </div>
+    <div class="facts">
+        <p>Facts</p>
+        <ul class="fact-points">
+            <li> *Something interesting</li>
+            <li>  *Another interesting fact</li>
+            <li>   *Yet another interesting fact</li>
+        </ul>
+    </div>
+    <div class="footer">@mypage</div></body>
+</html>
